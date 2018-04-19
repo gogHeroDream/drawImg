@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>drawImg3.X版本演示</title>
-    <script src="./js/drawImg.3.0.js"></script>
+    <script src="./js/drawImg.3.2.js"></script>
     <style>
         *{
             margin: 0;
@@ -46,10 +46,12 @@
             times:{delay:100,interval:200},
             // img:'',
             fatherBox:dom,
+            // 是否随机颜色
+            colorRandoming:true,
         };
         var abc=new Watermark(obj);
         abc.init();
-         console.log(abc.fatherBox);
+         // console.log(abc.fatherBox);
     }
 </script>
 </body>
